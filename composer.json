@@ -1,0 +1,26 @@
+{
+    "name": "hexlet/code",
+    "description": "Hexlet php project2",
+    "type": "library",
+    "license": "MIT",
+    "bin": [
+        "bin/gendiff.php"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Hexlet\\Code\\": "src/"
+        },
+        "files": [
+            "src/Cli.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "artem alekseev",
+            "email": "temchic1@gmail.com"
+        }
+    ],
+    "require": {
+        "docopt/docopt": "^1.0"
+    }
+}
